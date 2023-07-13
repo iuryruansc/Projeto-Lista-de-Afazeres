@@ -1,7 +1,12 @@
 #lista-tarefas {
     padding-left: 15px;
+    display: inline-block;
 }
 
 #criar-tarefa, #clear {
     display: inline-block;
+}
+
+.completed {
+    text-decoration: line-through solid black;
 }
